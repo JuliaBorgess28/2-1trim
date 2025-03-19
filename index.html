@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <link rel="stylesheet" href="style.css">
+    <title>Harry Potter e o Enigma do Príncipe</title>
+</head>
+<body>
+    <header>
+        <h1>Sexto filme da saga "Harry Potter"</h1>
+        <button onclick="changeFontSize('aumentar')">Aumentar</button>
+<button onclick="changeFontSize('reduzir')">Reduzir</button><script>
+function changeFontSize(action){
+const elements = ['h1', 'p'];
+elements.map(element=>{
+
+const selector = document.querySelector(element);
+let value = getComputedStyle(selector).getPropertyValue('font-size');
+value = value.replace('px', '');
+value = action === 'aumentar' ? parseInt(value) + 1 : parseInt(value) - 1;
+selector.style.fontSize = `${value}px`;
+})
+}
+</script>
+    </header>
+    <main>
+        <h2>No sexto ano de Harry em Hogwarts, Lord Voldemort e seus Comensais da Morte estão criando o terror nos mundos bruxo e trouxa.</h2><ul>
+            <button onclick="changeFontSize('aumentar')">Aumentar</button>
+            <button onclick="changeFontSize('reduzir')">Reduzir</button><script>
+            function changeFontSize(action){
+            const elements = ['h1', 'p'];
+            elements.map(element=>{
+            
+            const selector = document.querySelector(element);
+            let value = getComputedStyle(selector).getPropertyValue('font-size');
+            value = value.replace('px', '');
+            value = action === 'aumentar' ? parseInt(value) + 1 : parseInt(value) - 1;
+            selector.style.fontSize = `${value}px`;
+            })
+            }
+            </script>
+            </ul>
+         <img id="img1" src="download2.jpeg">
+         <h3>Harry Potter e o Enigma do Príncipe é o sexto livro da série Harry Potter, de J. K. Rowling. Em 24 horas, 6,9 milhões de cópias foram vendidas nos Estados Unidos, 250 mil por hora, se tornando o livro mais rapidamente vendido da história. A livraria Barnes & Noble registrou uma média de 105 cópias vendidas por segundo na primeira hora de vendas. É também o primeiro livro da série a ser menor do que seu antecessor imediato.</h3>
+         <img id="ima2" src="download1.jpeg">
+         <button onclick="changeFontSize('aumentar')">Aumentar</button>
+         <button onclick="changeFontSize('reduzir')">Reduzir</button><script>
+         function changeFontSize(action){
+         const elements = ['h1', 'p'];
+         elements.map(element=>{
+         
+         const selector = document.querySelector(element);
+         let value = getComputedStyle(selector).getPropertyValue('font-size');
+         value = value.replace('px', '');
+         value = action === 'aumentar' ? parseInt(value) + 1 : parseInt(value) - 1;
+         selector.style.fontSize = `${value}px`;
+         })
+         }
+         </script>
+    </main>
+    <footer>
+    <h4> Dumbledore convence seu velho amigo Horácio Slughorn para retornar a Hogwarts como professor de poções após Harry encontrar um estranho livro escolar. Draco Malfoy se esforça para realizar uma ação destinada por Voldemort, enquanto Dumbledore e Harry secretamente trabalham juntos a fim de descobrir o método para destruir o Lorde das Trevas uma vez por todas. </h4>
+    <img id ="img3" src="download3.jpeg">
+    <button onclick="changeFontSize('aumentar')">Aumentar</button>
+<button onclick="changeFontSize('reduzir')">Reduzir</button><script>
+function changeFontSize(action){
+const elements = ['h1', 'p'];
+elements.map(element=>{
+
+const selector = document.querySelector(element);
+let value = getComputedStyle(selector).getPropertyValue('font-size');
+value = value.replace('px', '');
+value = action === 'aumentar' ? parseInt(value) + 1 : parseInt(value) - 1;
+selector.style.fontSize = `${value}px`;
+})
+}
+</script>
+    <ol>
+    </footer>
+</body>
+</html>
